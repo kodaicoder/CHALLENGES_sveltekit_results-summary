@@ -14,8 +14,8 @@
 		}}
 	>
 		<img
-			src="https://avatars.githubusercontent.com/u/110652592?v=4"
-			alt="kodaicoder avatar"
+			src="https://github.com/kodaicoder.png?size=64"
+			alt="kodaicoder footer avatar"
 			class=" rounded-full"
 		/>
 	</button>
