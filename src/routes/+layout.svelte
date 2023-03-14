@@ -4,8 +4,10 @@
 </script>
 
 <div class="relative grid justify-center md:place-content-center min-h-screen">
-	<slot />
-	<div class="m-12">
+	<main>
+		<slot />
+	</main>
+	<footer class="m-12">
 		<Footer />
-	</div>
+	</footer>
 </div>
