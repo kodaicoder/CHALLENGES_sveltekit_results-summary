@@ -25,11 +25,12 @@
 			class="footerLabel absolute w-64 md:w-max p-4 right-20 top-1/2 -translate-y-1/2 bg-blue-500 text-white rounded-lg"
 		>
 			<p class="m-0">
-				Challenge by <a href="https://www.frontendmentor.io/" class=" underline underline-offset-2"
+				Challenge by <a href="https://www.frontendmentor.io/" target="_blank class=" underline underline-offset-2"
 					>Frontend Mentor</a
 				>. Coded by
 				<a
 					href="https://www.frontendmentor.io/profile/NutchaponMake"
+					target="_blank"
 					class=" underline underline-offset-2">KodaiCoder</a
 				>.
 			</p>
