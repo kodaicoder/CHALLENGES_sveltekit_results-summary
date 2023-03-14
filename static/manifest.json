@@ -1,0 +1,7 @@
+{
+	"background_color": "#ffffff",
+	"theme_color": "#5F3FFC",
+	"name": "result summary with Svelte ",
+	"short_name": "result summary",
+	"start_url": "/"
+}
