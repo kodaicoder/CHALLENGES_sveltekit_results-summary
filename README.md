@@ -9,9 +9,9 @@
     <br />
     <br />
      <a href="https://challenges-sveltekit-results-summary.vercel.app/">View Demo</a>
-    · 
+    <strong>·</strong>
     <a href="https://github.com/MelvinAguilar/article-preview-component/issues" target="_blank">Report Bug</a>
-    ·
+      <strong>·</strong>
     <a href="https://github.com/MelvinAguilar/article-preview-component/issues" target="_blank">Request Feature</a>
   </p>
 </div>
