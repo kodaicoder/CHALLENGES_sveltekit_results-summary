@@ -3,8 +3,7 @@
 <div align="center">
   <img src="https://www.frontendmentor.io/static/images/logo-mobile.svg" alt="frontendmentor" width="80">
 
-  <h2 align="center">🎉 Result summary component solution 🎉</h2>
-    <h3 align="center"> build with <img src="https://simpleicons.org/icons/svelte.svg" width="20" style="filter: brightness(0) saturate(100%) invert(29%) sepia(69%) saturate(4116%) hue-rotate(3deg) brightness(104%) contrast(105%);"> Sveltekit & <img src="https://simpleicons.org/icons/tailwindcss.svg" width="20" style="filter: brightness(0) saturate(100%) invert(57%) sepia(100%) saturate(647%) hue-rotate(167deg) brightness(97%) contrast(96%);"> Tailwindcss </h3>
+  <h2 align="center">🎉 Result summary component solution 🎉 <br/><small>build with <img src="https://skillicons.dev/icons?i=svelte" width="20"> Sveltekit & <img src="https://skillicons.dev/icons?i=tailwind" width="20">Tailwindcss </small></h2>
   <p align="center">
     <a href="https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV"><strong>Frontend Mentor Challenge</strong></a>
     <br />
@@ -93,9 +92,9 @@ Users should be able to:
 
 ## Author
 
-- <img src="https://simpleicons.org/icons/github.svg" width="20" style="filter:invert(100%)"> Github - [Nutchapon](https://github.com/kodaicoder)
-- <img src="https://simpleicons.org/icons/twitter.svg" width="20" style="filter:invert(100%)"> Twitter - [@SolanianNut](https://twitter.com/SolanianNut)
-- <img src="https://simpleicons.org/icons/frontendmentor.svg" width="20" style="filter:invert(100%)"> Frontend Mentor - [@NutchaponMake](https://www.frontendmentor.io/profile/NutchaponMake)
+- <img src="https://skillicons.dev/icons?i=github" width="20"> Github - [Nutchapon](https://github.com/kodaicoder)
+- <img src="https://skillicons.dev/icons?i=twitter" width="20"> Twitter - [@SolanianNut](https://twitter.com/SolanianNut)
+- <img src="https://seeklogo.com/images/F/frontend-mentor-logo-DD85EFE0E9-seeklogo.com.png" width="20"> Frontend Mentor - [@NutchaponMake](https://www.frontendmentor.io/profile/NutchaponMake)
 
 ## Acknowledgments
 
