@@ -10,16 +10,16 @@
     <br />
      <a href="https://challenges-sveltekit-results-summary.vercel.app/">View Demo</a>
     <strong>·</strong>
-    <a href="https://github.com/MelvinAguilar/article-preview-component/issues" target="_blank">Report Bug</a>
+    <a href="https://github.com/kodaicoder/CHALLENGES_sveltekit_results-summary/issues" target="_blank">Report Bug</a>
       <strong>·</strong>
-    <a href="https://github.com/MelvinAguilar/article-preview-component/issues" target="_blank">Request Feature</a>
+    <a href="https://github.com/kodaicoder/CHALLENGES_sveltekit_results-summary/issues" target="_blank">Request Feature</a>
   </p>
 </div>
 
 <!-- Bagdes -->
 <div align="center">
   <!-- Profile -->
-  <a href="https://www.frontendmentor.io/profile/MelvinAguilar">
+  <a href="https://www.frontendmentor.io/profile/NutchaponMake">
     <img src="https://img.shields.io/badge/Profile-KodaiCoder-07043B?style=plastic&logo=frontendmentor" alt="KodaiCoder Profile">
   </a>
   <!-- Status -->
