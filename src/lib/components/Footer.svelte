@@ -5,10 +5,10 @@
 	$: console.log(showLabel);
 </script>
 
-<div class="fixed bottom-4 right-4 z-20 bg-white rounded-full not-prose">
+<div class="grid place-content-center fixed bottom-4 right-4 z-20 bg-white rounded-full not-prose">
 	<!-- <div class="relative"> -->
 	<button
-		class="cursor-pointer w-16 h-16 rounded-full border-4 border-blue-300 opacity-70 transition-all duration-300 hover:border-blue-500 hover:opacity-100"
+		class="cursor-pointer w-16 aspect-square rounded-full border-4 border-blue-300 opacity-70 transition-all duration-300 hover:border-blue-500 hover:opacity-100"
 		on:click={() => {
 			showLabel = !showLabel;
 		}}
@@ -22,7 +22,7 @@
 	{#if showLabel}
 		<div
 			transition:fade
-			class="footerLabel absolute w-64 md:w-max p-4 right-20 top-1/2 -translate-y-1/2 bg-blue-500 text-white rounded-lg"
+			class="footerLabel absolute w-72 md:w-max p-4 right-20 top-1/2 -translate-y-1/2 bg-blue-500 text-white rounded-lg"
 		>
 			<p class="m-0">
 				Challenge by <a
