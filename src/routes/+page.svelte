@@ -8,9 +8,7 @@
 	<title>Result summary component</title>
 </svelte:head>
 
-<div class="prose prose-lg ">
-	<Card>
-		<Result />
-		<Summary />
-	</Card>
-</div>
+<Card>
+	<Result />
+	<Summary />
+</Card>

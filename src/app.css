@@ -9,39 +9,34 @@
 		font-family: 'HankenGrotesk';
 		font-weight: normal;
 		font-display: swap;
-		src: local('HankenGrotesk'), url('/fonts/HankenGrotesk/HankenGrotesk.ttf');
-	}
-	/*? Medium */
-	@font-face {
-		font-family: 'HankenGrotesk';
-		font-weight: 500;
-		font-display: swap;
-		src: local('HankenGrotesk Medium'), local('HankenGrotesk-Medium'), local('hankenGrotesk medium'),
-			local('hankenGrotesk-medium'), url('/fonts/HankenGrotesk/HankenGrotesk-Medium.ttf');
-	}
-	/*? Bold */
-	@font-face {
-		font-family: 'HankenGrotesk';
-		font-weight: 700;
-		font-display: swap;
-		src: local('HankenGrotesk Bold'), local('HankenGrotesk-Bold'), local('hankenGrotesk bold'),
-			local('hankenGrotesk-bold'), url('/fonts/HankenGrotesk/HankenGrotesk-Bold.ttf');
-	}
-	/*? Extra Bold */
-	@font-face {
-		font-family: 'HankenGrotesk';
-		font-weight: 800;
-		font-display: swap;
-		src: local('HankenGrotesk ExtraBold'), local('HankenGrotesk-ExtraBold'),
-			local('hankenGrotesk extraBold'), local('hankenGrotesk-extraBold'),
-			url('/fonts/HankenGrotesk/HankenGrotesk-ExtraBold.ttf');
+		src: local('HankenGrotesk'), local('hankenGrotesk'),
+			url('/fonts/HankenGrotesk/HankenGrotesk.ttf') format('truetype');
 	}
 
-	/*? Using local font-family */
-	html {
-		font-family: HankenGrotesk, system-ui, sans-serif;
-		background-color: whitesmoke;
+	/*? Simple Reset */
+	*,
+	*::before,
+	*::after {
+		box-sizing: border-box;
 	}
+
+	* {
+		margin: 0;
+		font: inherit;
+	}
+	img,
+	svg {
+		margin: 0;
+		display: block;
+		max-width: 100%;
+	}
+	/*?---------------- */
+
+	/*? Using local font-family */
+	body {
+		@apply text-lightlavender font-hankenGrotesk;
+	}
+	/*?---------------- */
 
 	.footerLabel:after {
 		@apply content-[''] absolute top-1/2 -right-2 rotate-45 -translate-y-1/2 border-8 border-blue-500;

@@ -1,3 +1,4 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
 /**@type{import('tailwindcss').Config}*/
 module.exports = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
@@ -20,9 +21,10 @@ module.exports = {
 				darkgrayblue: 'hsl(224,30%,27%)'
 			},
 			fontFamily: {
-				hankenGrotesk: ['HankenGrotesk']
+				hankenGrotesk: ['"HankenGrotesk"', ...defaultTheme.fontFamily.sans]
 			}
 		}
 	},
-	plugins: [require('@tailwindcss/typography')]
+	// require('@tailwindcss/typography')
+	plugins: []
 };

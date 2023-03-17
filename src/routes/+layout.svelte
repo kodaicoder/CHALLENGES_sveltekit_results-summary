@@ -3,11 +3,11 @@
 	import '../app.css';
 </script>
 
-<div class="relative grid justify-center md:place-content-center min-h-screen">
+<div class="md:min-h-screen md:grid md:place-content-center">
 	<main>
 		<slot />
 	</main>
-	<footer class="m-12">
+	<footer class="m-12 md:m-0">
 		<Footer />
 	</footer>
 </div>

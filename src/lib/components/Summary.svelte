@@ -34,9 +34,9 @@
 	];
 </script>
 
-<div class="flex flex-1 flex-col p-10 ">
-	<h3 class="m-0 mb-3 font-extrabold">Summary</h3>
-	<ul class="p-0">
+<div class="grid items-start gap-8 p-10">
+	<p class=" text-2xl font-bold leading-none text-black">Summary</p>
+	<ul class="grid gap-5">
 		{#each data as item}
 			<List {...item} />
 		{/each}

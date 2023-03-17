@@ -1,4 +1,5 @@
 <script>
+	// @ts-nocheck
 	export let iconSrc = '';
 	export let text = 'default_text';
 	export let score = 0;
@@ -13,11 +14,11 @@
 </script>
 
 <li
-	class="w-full flex justify-between align-middle rounded-xl px-3 py-2  transition duration-300 {`${colorVariants[color]}`}"
+	class="w-full flex justify-between align-middle rounded-xl p-4 transition duration-300 font-bold {`${colorVariants[color]}`}"
 >
 	<div class="inline-flex gap-2">
 		<img src={iconSrc} alt={`${text} icon`} />
-		<p class="text-inherit font-bold">{text.charAt(0).toUpperCase() + text.slice(1)}</p>
+		<p class="text-inherit">{text.charAt(0).toUpperCase() + text.slice(1)}</p>
 	</div>
 	<div class="inline-flex gap-2">
 		<p class="text-darkgrayblue font-bold">{score}</p>
