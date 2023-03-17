@@ -12,12 +12,12 @@
 	bg-gradient-to-b from-lightslateblue to-lightroyalblue
 	rounded-b-3xl md:rounded-3xl "
 >
-	<p class=" text-2xl font-bold leading-none">Your Result</p>
+	<p class=" text-2xl font-extrabold leading-none">Your Result</p>
 
 	<div
 		class="grid place-content-center mx-auto  w-44 aspect-square rounded-full bg-gradient-to-b from-violetblue to-persianblue "
 	>
-		<p class="m-0 text-5xl font-bold text-white ">{data.score}</p>
+		<p class="m-0 text-7xl font-black text-white ">{data.score}</p>
 		<p>of {data.maxScore}</p>
 	</div>
 	<div class="grid gap-4">
