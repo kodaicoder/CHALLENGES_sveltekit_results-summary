@@ -4,7 +4,6 @@
 
 @layer base {
 	/*? USING LOCAL FONT FROM STATIC FOLDER */
-	/*? Regular */
 	@font-face {
 		font-family: 'HankenGrotesk';
 		font-weight: 100 900;

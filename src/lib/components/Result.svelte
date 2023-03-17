@@ -12,7 +12,7 @@
 	bg-gradient-to-b from-lightslateblue to-lightroyalblue
 	rounded-b-3xl md:rounded-3xl "
 >
-	<p class=" text-2xl font-extrabold leading-none">Your Result</p>
+	<h1 class=" text-2xl font-extrabold leading-none">Your Result</h1>
 
 	<div
 		class="grid place-content-center mx-auto  w-44 aspect-square rounded-full bg-gradient-to-b from-violetblue to-persianblue "
