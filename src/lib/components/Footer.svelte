@@ -6,7 +6,7 @@
 <div class="grid place-content-center fixed bottom-4 right-4 z-20 bg-white rounded-full not-prose">
 	<!-- <div class="relative"> -->
 	<button
-		class="cursor-pointer w-16 aspect-square rounded-full border-4 border-blue-300 opacity-70 transition-all duration-300 hover:border-blue-500 hover:opacity-100"
+		class="cursor-pointer w-16 aspect-square rounded-full border-4 overflow-hidden border-blue-300 opacity-70 transition-all duration-300 hover:border-blue-500 hover:opacity-100"
 		on:click={() => {
 			showLabel = !showLabel;
 		}}
