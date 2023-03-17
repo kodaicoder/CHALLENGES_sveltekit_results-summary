@@ -1,8 +1,6 @@
 <script>
 	import { fade } from 'svelte/transition';
 	let showLabel = false;
-
-	$: console.log(showLabel);
 </script>
 
 <div class="grid place-content-center fixed bottom-4 right-4 z-20 bg-white rounded-full not-prose">
